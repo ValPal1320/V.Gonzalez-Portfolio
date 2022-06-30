@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(181, 252, 175);
+}
+
+.Header {
+    background-color: mintcream;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    border: 5px outset purple;
+    border-radius: 20px;
+    margin: 50px 300px;
+}
+
+.navLinks, ul, li {
+    background-color: rgb(130, 78, 252);
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: auto;
+    padding: 14px 16px;
+    display: inline;
+}
