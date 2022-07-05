@@ -1,26 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Valeria's Professional Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valeria's Professional Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="Header">
-    <header>
-        <h1>Valeria Gonzalez</h1>
+    <header class="border">
+        <nav>
+            <a class="active" href="#aboutMe">About Me</a>
+            <a href="#work">My Work</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+        <img src="./assets/images/logo.PNG" alt="logo">
     </header>
-</div>
+
+    <div class="hero border">
+        <div>
+            <h1 class="name">Hi, I'm Valeria Gonzalez.</h1>
+        </div>
+        <img src="./assets/images/profile.jpg">
+    </div>
 
 
-<div class="navLinks">
-  <a href="#aboutme">About Me</a>
-  <a href="#work">My Work</a>
-  <a href="#contact">Contact Me</a>
-</div>
+    <main id="aboutMe">
+        <div class="bio border">
+            <section>
+                <h1>A little about me...</h1>
+                <p>Hi there! My name is Valeria Gonzalez (I go by Val) and I am an upcoming web designer
+                    based in Austin, TX. <br> I have a degree in Mathematics from Texas State University. I am currently
+                    enrolled at the University of Texas Coding Bootcamp and enjoying all the content I've learned
+                    so far. <br> I will be updating my web with future applications. Feel free to reach out to me!
+                </p>
+            </section>
+        </div>
+    </main>
 
-<img src="/assets/retro-striped-background.webp" alt="Retro striped background">
+    <section id="work">
+        <div class="image-grid border">
+            <h1>My Work</h1>
+                <a href="https://valpal1320.github.io/Horiseon-Challenge1/"><img class="image-grid-col-2" src="./assets/images/digital-marketing-meeting.jpg" alt="Digital marketing meeting"></a>
+                <h3>HTML/CSS-Horiseon</h2>
+            <div class="comingSoon">   
+                <img src="./assets/images/coming-soon.jpg" alt="Coming Soon">
+                <img src="./assets/images/coming-soon.jpg" alt="Coming Soon"> 
+                <img src="./assets/images/coming-soon.jpg" alt="Coming Soon">
+            </div>    
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="connect border">
+            <h1>Contact Me</h1>
+            <div>
+                <p>📞 | (512)781-9022</p>
+                <p>📧 | <a href="mailto:valgonzalez13@yahoo.com">Email Me!</a></p>
+                <p>💻 | <a href="https://github.com/ValPal1320">GitHub</a></p>
+            </div>
+        </div>
+    </section>
 
 
 </body>
