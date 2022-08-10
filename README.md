@@ -8,7 +8,7 @@ This site is a homepage for my portfolio. It is an upgradeable project, and for 
 reflect my new and improved skills.
 
 ## Website Screenshot
-<img src="Portfolio-image.png">
+![Portfolio Image Demo](./assets/images/Portfolio-image.png)
 
 ## Link to deployed application
 https://valpal1320.github.io/V.Gonzalez-Professional-Portfolio/
