@@ -67,9 +67,8 @@ main{
 }
 
 .image-grid {
-    max-width: 60%;
+    max-width: 40%;
     margin: 0 auto;
-    resize: both;
     overflow: hidden;
     margin-bottom: 10px;
 }
@@ -100,8 +99,8 @@ img {
     overflow: hidden;
 }
 
-/* What the application will respond to when screen size is below 375px */
-@media (max-width: 375px) {
+/* What the application will respond to when screen size is below 440px */
+@media (max-width: 440px) {
     .header {
         flex-wrap: wrap;
     }
