@@ -5,11 +5,12 @@
     --darkBlueGray: #6A66A3;
     --cyberGrape: #4b3f72;
     --maxYellowRed: #FFC857;
+    --spaceCadet: #1F2041;
+    --lavenderBlue: #E3DAFF;
 }
 
 body {
-    background-color: var(--maxYellowRed);
-    padding: 0;
+    background-color: var(--spaceCadet);
     text-align: center;
 }
 
@@ -59,6 +60,12 @@ nav a:hover {
     margin: 2rem;
     background-color: var(--cyberGrape);
     color: var(--maxYellowRed);
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+/* Styling for work showcase */
+#work {
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 .image-grid {
@@ -66,10 +73,12 @@ nav a:hover {
     margin: 0 auto;
     overflow: hidden;
     margin-bottom: 10px;
+    background-color: var(--pewterBlue);
 }
 
-.comingSoon {
+.otherWork {
     display: inline;
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 img {
@@ -81,13 +90,14 @@ img {
 .bio,
 .image-grid {
     padding: 10px;
-    background-color: mintcream;
+    background-color: var(--lavenderBlue);
 }
 
 .connect {
     padding: 10px;
     text-align: center;
-    background-color: #DBFE87;
+    background-color: var(--maxYellowRed);
+    font-family: 'Noto Sans Mono', monospace;
     max-width: 30%;
     margin: 0 auto;
     justify-content: center;
