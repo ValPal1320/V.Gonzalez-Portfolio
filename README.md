@@ -11,4 +11,4 @@ reflect my new and improved skills.
 ![Portfolio Image Demo](./assets/images/Portfolio-image.png)
 
 ## Link to deployed application
-https://valpal1320.github.io/V.Gonzalez-Professional-Portfolio/
+https://valpal1320.github.io/V.Gonzalez_Professional_Portfolio/
